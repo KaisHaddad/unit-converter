@@ -12,6 +12,7 @@ const mass = document.getElementById("mass")
 
 
 convertBtn.addEventListener("click", function() {
+    if (inputEl.value = number) {
     let unit = inputEl.value
     let resultFeet = unit * 3.281
     let resultMeters = unit * 0.304
@@ -32,4 +33,5 @@ convertBtn.addEventListener("click", function() {
         ${unit} pound = ${resultKilos.toFixed(3)} kilos
         `
     inputEl.value = ""
+    }
 })
