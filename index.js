@@ -13,7 +13,6 @@ const mass = document.getElementById("mass")
 
 convertBtn.addEventListener("click", function() {
     let unit = inputEl.value
-    if (typeof unit === 'number' && !Number.isNaN(unit)) {
     let resultFeet = unit * 3.281
     let resultMeters = unit * 0.304
     length.textContent = `
@@ -33,7 +32,4 @@ convertBtn.addEventListener("click", function() {
         ${unit} pound = ${resultKilos.toFixed(3)} kilos
         `
     inputEl.value = ""
-    } else {
-        inputEl.value = ""
-    }
 })
