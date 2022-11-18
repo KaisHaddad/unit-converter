@@ -33,5 +33,7 @@ convertBtn.addEventListener("click", function() {
         ${unit} pound = ${resultKilos.toFixed(3)} kilos
         `
     inputEl.value = ""
+    } else {
+        inputEl.value = ""
     }
 })
