@@ -12,8 +12,8 @@ const mass = document.getElementById("mass")
 
 
 convertBtn.addEventListener("click", function() {
-    if (inputEl.value = number) {
     let unit = inputEl.value
+    if (inputEl.value = number) {
     let resultFeet = unit * 3.281
     let resultMeters = unit * 0.304
     length.textContent = `
